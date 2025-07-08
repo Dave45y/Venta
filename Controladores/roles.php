@@ -22,7 +22,7 @@ switch ($_GET["op"]){
             echo $rspta ? "Rol registrado con exito" : "No se pudo registrar el rol a la base de datos";
         }
         else{
-            $rspta= $roles->editar($idcategoria,$nombre,$descripcion);
+            $rspta= $roles->editar($idroles,$nombre,$condicon);
             echo $rspta ? "Rol editado con exito" :  "No se pudo editar el rol";
         }
 }
