@@ -1,17 +1,27 @@
 <?php
-//Incluimos el archivo Roles.php
-require_once "../Modelos/Roles.php";
-//Instanciamos la clase roles
-$roles = new Roles();
+//Incluimos el archivo Cliente.php
+require_once "../Modelos/Cliente.php";
+//Instanciamos la clase cliente
+$cliente = new Cliente();
 
-//Definimos una variable para almacenar el id roles
-$idroles=isset($_POST["idroles"]) ? limpiarCadena($_POST["idroles"]) : "";
+//Definimos una variable para almacenar el id cliente
+$idcliente=isset($_POST["idcliente"]) ? limpiarCadena($_POST["idcliente"]) : "";
 //Definimos una varible para almacenar el nombre
 $nombre = isset ($_POST["nombre"]) ? limpiarCadena($_POST["nombre"]) : "";
 
-//Definimos una variable para almacenar la condicon
+//Definimos una variable para almacenar el apellido
 
-$condicon = isset ($_POST["condicon"]) ? limpiarCadena($_POST["condicon"]) : "";
+$condicon = isset ($_POST["apellido"]) ? limpiarCadena($_POST["apellido"]) : "";
+
+//Definimos una variable para almacenar el tipo_documento
+
+$condicon = isset ($_POST["tipo_documento"]) ? limpiarCadena($_POST["tipo_documento"]) : "";
+
+//Definimos una variable para almacenar el tipo_documento
+
+$condicon = isset ($_POST["tipo_documento"]) ? limpiarCadena($_POST["tipo_documento"]) : "";
+
+
 
 
 //Generamos un switch para determinar la accion a realizar

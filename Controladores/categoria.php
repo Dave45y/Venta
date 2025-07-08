@@ -25,6 +25,23 @@ switch ($_GET["op"]){
             $rspta= $categoria->editar($idcategoria,$nombre,$descripcion);
             echo $rspta ? "Categoria editada con exito" :  "No se pudo editar la categoria";
         }
+        break;
+        //Si elijo la opcion desactivar ejecuta esta seccion del código
+        case 'desactivar':
+            $rspta = $categoria->desactivar($idcategoria);
+            echo $rspta ? "Categoria desactivada" : "No se pudo desactivar";
+            break;
+
+        case 'activar':
+            $rspta = $categoria->activar($idcategoria);
+            echo $rspta ?"Categoria activada" : "No se pudo activar";
+            break;
+
+        case 'mostrar' :
+            $rspta= $categoria->mostrar($idcategoria);
+            //Convertir en resultado en json
+            echo json_encode($rspta);
+            break;
 }
 
 
