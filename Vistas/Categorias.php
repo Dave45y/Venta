@@ -1,5 +1,7 @@
-
-        <!--Aqui va el contenido de la pagina-->
+       <?php
+       require "header.php";
+       ?>
+       <!--Aqui va el contenido de la pagina-->
         <div class="content-wrapper">
             <!--Main Content-->
             <section class="content">
@@ -8,14 +10,14 @@
                         <div class="box">
                             <div class="box-header with-border">
                                 <h1 class="boxtittle">Categoría <button class="btn btn-succes" id="btnagregar"
-                                        onclick="mostrarform()"><i class="fa fa-plus-circle"></i> Agregar</button></h1>
+                                        onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Agregar</button></h1>
                                 <div class="box-tools pull-right">
 
                                 </div>
                             </div>
                             <!--Fin de cabecera-->
                             <!--Centro del box-->
-                            <div class="panel-body table-responsive" id="listadoregristro">
+                            <div class="panel-body table-responsive" id="listadoregistro">
                                 <table
                                     class="table table-striped table bordered table-responsive table-condensedtable-hover"
                                     id="listado">
@@ -71,6 +73,7 @@
         </section>
     </div>
     </div>
-
-
-    
+<?php
+require "footer.php";
+?>
+<script src="js/categoria.js" type="text/javascript"></script>
