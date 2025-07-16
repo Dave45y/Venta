@@ -17,6 +17,7 @@
     <!--Librerias de icono de navegador-->
     <link rel="shortcut icon" href="../Public/img/apple-touch-icon.png">
     <link rel="shortcut icon" href="../Public/img/favicon.ico">
+    <!--DataTables-->
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">

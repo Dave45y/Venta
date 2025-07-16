@@ -14,7 +14,7 @@ class Cliente{
     public function insertar($nombre,$apellido,$tipo_documento,$num_documento,$dieccion,$telefono,$email){
         //Definimos una variable para almacenar la consulta
         $sql = "INSERT INTO cliente (nombre,apellido,tipo_documento,num_documento,dieccion,telefono,email)
-        VALUES ($nombre,$apellido,$tipo_documento,$num_documento,$dieccion,$telefono,$email, '1')";
+        VALUES ($nombre,$apellido,$tipo_documento,$num_documento,$dieccion,$telefono,$email, 1)";
         //retornamos el resultado de la consulta
         return ejecutarConsulta($sql);
 
@@ -28,7 +28,7 @@ class Cliente{
         return ejecutarConsulta($sql);
     }
 
-    //Definimos una funcion para activar unun cliente
+    //Definimos una funcion para activar un cliente
     public function activar($idcliente){
         //Definimos una varible para almacenar la consulta
         $sql = "UPDATE cliente SET condicion = 1 WHERE idcliente = 'idcliente'";

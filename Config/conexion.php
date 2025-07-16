@@ -25,7 +25,7 @@ if(!function_exists('ejecutarConsulta')){
         //creo una varible para almacenar el resultado de la consulta
         $query= $conexion->query($sql);
         //Retorno el resultado de la consulta
-        return $query
+        return $query;
     }
 
     //Creo una funcion que me permita obtener una sola fila de una tabla

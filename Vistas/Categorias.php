@@ -1,5 +1,5 @@
        <?php
-       require "header.php";
+       require 'header.php';
        ?>
        <!--Aqui va el contenido de la pagina-->
         <div class="content-wrapper">
@@ -20,7 +20,7 @@
                             <div class="panel-body table-responsive" id="listadoregistro">
                                 <table
                                     class="table table-striped table bordered table-responsive table-condensedtable-hover"
-                                    id="listado">
+                                    id="tbllistado">
                                     <thead>
                                         <th>Categoria</th>
                                         <th>Nombre</th>
@@ -74,6 +74,6 @@
     </div>
     </div>
 <?php
-require "footer.php";
+require 'footer.php';
 ?>
 <script src="js/categoria.js" type="text/javascript"></script>

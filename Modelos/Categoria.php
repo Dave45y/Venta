@@ -13,8 +13,7 @@ class Categoria{
     //Definimos un metodo para insertar una categoria a la base de datos
     public function insertar($nombre,$descripcion){
         //Definimos una variable para almacenar la consulta
-        $sql = "INSERT INTO categoria (nombre,descripcion,condicion)
-        VALUES ($nombre, $descripcion, '1')";
+        $sql = "INSERT INTO categoria (nombre,descripcion,condicion) VALUES ('$nombre', '$descripcion', 1)";
         //retornamos el resultado de la consulta
         return ejecutarConsulta($sql);
 
@@ -46,7 +45,7 @@ class Categoria{
         //DEfinimos una variable para almacenar la consulta
         $sql = "SELECT * FROM categoria WHERE idcategoria = '$idcategoria'";
         //Retornamos la consulta
-        return ejecutarConsultaSimpleFila($sql)
+        return ejecutarConsultaSimpleFila($sql);
     }
     //Definimos una funcion para listar las categorias
     public function listar(){

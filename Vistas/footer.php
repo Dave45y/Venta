@@ -8,11 +8,13 @@
     </footer>
 
     <!--Añadimos la libreria de Jquery-->
-    <script src="../Public/js/jquery-3.1.1.min.js"></script>
+    <script src="../Public/js/jquery-3.7.1.min.js"></script>
     <!--Libreria de Bootstrap-->
-    <script src="../Public/js/bootbox.min.js"></script>
+    <script src="../Public/js/bootstrap.min.js"></script>
     <!--Libreria de AdminLTE-->
     <script src="../Public/js/app.js"></script>
+    <!--Añadimos bootbox a nuestro projecto-->
+    <script src="../Public/js/bootbox.min.js"></script>
 </body>
 
 </html>

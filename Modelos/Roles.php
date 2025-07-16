@@ -14,7 +14,7 @@ class Roles{
     public function insertar($nombre,$condicon){
         //Definimos una variable para almacenar la consulta
         $sql = "INSERT INTO roles (nombre,condicon)
-        VALUES ($nombre, $condicon, '1')";
+        VALUES ($nombre, $condicon, 1)";
         //retornamos el resultado de la consulta
         return ejecutarConsulta($sql);
 
