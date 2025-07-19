@@ -3,108 +3,121 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--Le vamos a decir al navegasdor que el diseño que vamos a realizar va a ser responsive-->
+    <!--Le vamos a decir al navegador que el diseño que vamos a realizar va a 
+    ser responsive o adaptable-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistemas Ventas</title>
-    <!--Añadimos todos los componenetes de Bootstrap 3.3.5-->
-    <link rel="stylesheet" href="../Public/bootstrap/css/bootstrap.min.css">
-    <!--Añadimos otra libreria-->
-    <link rel="stylesheet" href="../Public/css/font-awesome.css">
-    <!--Añadimos la libreria del tema de estilos AdminLTE-->
-    <link rel="stylesheet" href="../Public/css/AdminLTE.min.css">
-    <!--Añadimos Librerias de AdminLTE-->
-    <link rel="stylesheet" href="../Public/css/_all-skins.min.css">
-    <!--Librerias de icono de navegador-->
-    <link rel="shortcut icon" href="../Public/img/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../Public/img/favicon.ico">
-    <!--DataTables-->
+    <title>Sistema Ventas</title>
+    <!--Añadimos la libreria de Boostrap 3.3.5 -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <!--Añadimo s la liberoa de font aweson-->
+    <link rel="stylesheet" href="../public/css/font-awesome.css">
+    <!--Añadimos la libreria del tema de estilos AminLTE-->
+    <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
+    <!--Añadimos libreria de AdminLTE-->
+    <link rel="stylesheet" href="../public/css/_all-skins.min.css">
+    <link rel="stylesheet" href="../public/img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <!--Datatables-->
+    <!-- DATATABLES -->
+     <link rel="stylesheet" type="text/css" href="../public/datatables/jquery.dataTables.min.css">
+     <link rel="stylesheet" href="../public/datatables/buttons.dataTables.min.css">
+     <link rel="stylesheet" href="../public/datatables/responsive.dataTables.min.css">
+    
+    
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini">
-    <!--Div que contiene toda la estructura del body-->
+<body class="hold-transtion skin-blue-light sidebar-mini">
+    <!--Div que contien toda la estructura del body-->
     <div class="wrapper">
         <!--Aqui va el header-->
         <header class="main-header">
             <!--Logo-->
             <a href="#" class="logo">
-                <!--Creamos un mini logo para el sidebar mini 50x50px-->
-                <span class="logo-mini"><b>Sistemas</b>Ventas</span>
-                <!--logo para un dispositivo normal y disp moviles-->
-                <span class="logo-lg"><b>Sistemas Ventas</b></span>
-            </a>
-            <!--Fin del Logo-->
-            <!--Aqui va el header del navbar: los estilos se puden encotrar en header.les-->
+                <!--Mini logo para sidebar mini 50x50 pixel-->
+                <span class="logo-mini"><b>Sistema</b>Ventas</span>
+                <!--logo para un dispotivo normal y dispositivos moviles-->
+                <span class="logo-lg"><b>Sistema-Ventas</b></span>
+            </a><!--Fin del  logo-->
+            <!--Aqui va el header del Navbar: los estilos se pueden 
+            encontrar en header.less-->
             <nav class="navbar navbar-static-top" role="navigation">
-                <!--Boton de la hamburguesa del navbar-->
+                <!--Botón de la hamburguesa del navbar-->
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                    <span class="sr-only">Navegacion</span>
-
+                    <span class="sr-only">Navegación</span>
                 </a>
-                <!--Navbar menu derecho-->
+
+                <!--Navbar menú derecho-->
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
-                        <!--Cuenta de Usuario: los estilos estan en dropdown.less-->
-                        <li class="dropdrown user user-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <!--Cuenta de Usuario: los
+                        estilos lo puedes encontrar in dropdowm.less-->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdowm">
                                 <!--Cargamos la imagen del usuario-->
-                                <img src="../Public/img/freddy.jpg" alt="Imagen Usuario" class="user-image">
-                                <!--Nombre de Usuario-->
+                                <img src="../Public\img\freddy.jpg" alt="Imagen Usuario" class="user-image">
+                                <!--Nombre del usuario-->
                                 <span class="hidden-xs">Dave Quintero</span>
+
                             </a>
                             <!--Desplegable del usuario-->
                             <ul class="dropdown-menu">
                                 <!--Imagen del usuario-->
                                 <li class="user-header">
-                                    <img src="../Public/img/freddy.jpg" alt="Imagen de Usuario" class="img-circle">
+                                    <img src="../Public\img\freddy.jpg" alt="Imagen Usuario" class="img-circle">
                                     <p>Dave Quintero</p>
                                 </li>
-                                <!--Menu footer-->
+                                <!--menú footer-->
                                 <li class="user-footer">
                                     <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">SALIR</a>
+                                        <a href="#" class="btn btn-default btn-flat">Salir</a>
                                     </div>
                                 </li>
                             </ul>
                         </li>
-
                     </ul>
                 </div>
-            </nav><!--Fin del navbar-->
-        </header><!--Fin del header-->
 
-        <!--Menu izq en columna contiene un logo y el sidebar-->
+            </nav><!--fin del navbar-->
+        </header> <!--Fin del header-->
+
+        <!--menu izquierdo en columna , contiene un logo y el sidebar-->
         <aside class="main-sidebar">
             <section class="sidebar">
-                <!--Ponemos cadaa uno de los menus-->
+                <!--Ponemos cada uno de los menús-->
                 <ul class="sidebar-menu">
-
-                    <li class="header">Sistema Ventas</li>
+                    <li class="header">SISTEMASVENTAS</li>
                     <li>
                         <a href="#">
                             <i class="fa fa-cogs"></i>
-                            <span>Configuracion</span>
+                            <span>Configuración</span>
                         </a>
                     </li>
-                    <!--Lista escritorio-->
+
+                    <!--lista escritorio-->
                     <li>
                         <a href="#">
                             <i class="fa fa-tasks"></i>
                             <span>Escritorio</span>
                         </a>
                     </li>
-                    <!--Lista Almacén-->
+                    <!--lista alamacén-->
                     <li class="treeview">
-                        <a href="#"><i class="fa fa-laptop"></i>
+                        <a href="#">
+                            <i class="fa fa-laptop"></i>
                             <span>Almacén</span>
-                            <i class="fa fa-angle-left pull-right"></i></a>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
                         <ul class="treeview-menu">
-                            <li><a href="articulo.php"> <i class="fa fa-circle-o"></i>Articulos
+                            <li><a href="articulo.php">
+                                    <i class="fa fa-circle-o"></i>Artículos
                                 </a></li>
-                            <li><a href="Categoria.php"> <i class="fa fa-circle-o"></i>Categorías
+                            <li><a href="categorias.php">
+                                    <i class="fa fa-circle-o"></i>Categorías
                                 </a></li>
+
                         </ul>
-                    </li><!--Fin de lista de almacén-->
-                    <!--Lista de Personas-->
+                    </li><!--fin de lista de almacén-->
+                    <!--lista Persona-->
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-shopping-cart"></i>
@@ -112,13 +125,14 @@
                             <i class="fa fa-angle-left pull-right"></i>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="veta.php"><i class="fa fa-circle-o"></i>Ventas</a></li>
+                            <li><a href="venta.php"><i class="fa fa-circle-o"></i>Ventas</a></li>
                             <li><a href="cliente.php"><i class="fa fa-circle-o"></i>Clientes</a></li>
                         </ul>
-                    </li><!--Fin de lista de Personas-->
+                    </li><!--fin lista Persona-->
                     <!--Lista Acceso-->
-                    <li class="class treeview">
-                        <a href="#"><i class="class fa fa-folder"></i>
+                    <li class="treeview">
+                        <a href="">
+                            <i class="fa fa-folder"></i>
                             <span>Acceso</span>
                             <i class="fa fa-angle-left pull-right"></i>
                         </a>
@@ -130,5 +144,4 @@
                 </ul>
             </section>
 
-
-        </aside><!--Fin del sidebar-->
+        </aside><!--Fin del sidebar -->

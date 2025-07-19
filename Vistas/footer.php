@@ -1,20 +1,29 @@
-<!--Añadimos pie de pagina-->
+ <!--Añadimos pie de página-->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Versión</b>1.1.0
+            <b>versión</b> 1.1.0
         </div>
-        <strong>Copyright & copy; 2025-2025 <a href="">Dave Quintero</a></strong>All rights reserved
-
+        <strong>Copyright &copy; 2025-2025 <a href="">Davitron</a></strong>All rights reserved.
     </footer>
 
-    <!--Añadimos la libreria de Jquery-->
-    <script src="../Public/js/jquery-3.7.1.min.js"></script>
-    <!--Libreria de Bootstrap-->
-    <script src="../Public/js/bootstrap.min.js"></script>
-    <!--Libreria de AdminLTE-->
-    <script src="../Public/js/app.js"></script>
-    <!--Añadimos bootbox a nuestro projecto-->
-    <script src="../Public/js/bootbox.min.js"></script>
+    <!--Añadimos la librería de Jquery-->
+    <script src="../public/js/jquery-3.7.1.js"></script>
+    <!--Bootstrap -->
+    <script src="../public/js/bootstrap.min.js"></script>
+    <!--AdminLTE-->
+    <script src="../public/js/app.js"></script>
+
+    <!--DATA TABLES-->
+    <script src="../public/datatables/jquery.dataTables.min.js"></script>
+    <script src="../public/datatables/dataTables.buttons.min.js"></script>
+    <script src="../public/datatables/buttons.html5.min.js"></script>
+    <script src="../public/datatables/buttons.colVis.min.js"></script>
+    <script src="../public/datatables/jszip.min.js"></script>
+    <script src="../public/datatables/pdfmake.min.js"></script>
+    <script src="../public/datatables/vfs_fonts.js"></script>
+   
+    <!--añadimos bootbox a nuestro proyecto-->
+    <script src="../public/js/bootbox.min.js"></script>
 </body>
 
 </html>
